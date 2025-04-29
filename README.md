@@ -55,12 +55,12 @@ gcc copy.c -o copy
 gcc stack_limit.c -o stack_limit
 gcc shm_example.c -o shm_example
 
-Обмеження
+#Обмеження
 
-ulimit -f 10      # 5 КБ файл
-ulimit -t 1       # 1 секунда CPU
-ulimit -s 64      # 64 КБ стек
-ulimit -l         # показує обмеження на shared memory
+#ulimit -f 10      # 5 КБ файл
+#ulimit -t 1       # 1 секунда CPU
+#ulimit -s 64      # 64 КБ стек
+#ulimit -l         # показує обмеження на shared memory
 
 Запуск
 
